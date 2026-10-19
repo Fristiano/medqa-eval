@@ -1,0 +1,18 @@
+# 敏感信息
+.env
+*.key
+
+# 原始病历素材（含患者信息，绝不提交）
+data_raw/
+*.JPG
+*.jpg
+*.jpeg
+
+# 运行产物（本地保留，需要时可 git add -f 指定单个 manifest）
+outputs/
+
+# Python / 编辑器
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
