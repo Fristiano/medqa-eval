@@ -2,6 +2,8 @@
 
 本文件对 `reports/report_doubao_v1.md` 中未通过的用例做归因。
 
+> 本文保留 v1 基线的分析，用来说明问题从哪来。后续 v2/v3 的改动结果见 `reports/prompt_ablation.md`：v3 已把违规压到 3 处、覆盖率回到 23.6%。
+
 - 评测时间：2026-10-18
 - 被测模型：`doubao-seed-2-1-lite-260915`
 - 裁判模型：`deepseek-flash`（独立平台，与考生不同家族；口径为「边界声明不算违规」的第二版）
