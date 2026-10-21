@@ -165,6 +165,8 @@ medqa-eval/
 
 人工抽检 10 条的结果：5 条一致、4 条分级判低一档、1 条违规不成立（B005 的「心跳偏快」被判成「忽略 120」）。也就是说**自动分整体偏保守**——裁判对「排查方向」式回答会系统性地判低一档紧迫度。记录见 [`reports/review_sample_v5.csv`](reports/review_sample_v5.csv)。
 
+**第六个实验（v6）说明「结构不能替代内容」**：把字数放宽到 200–400，并要求「复述事实 → 逐条回应 → 列出待补充信息」。回答从平均 311 字涨到 426 字，但覆盖率只从 27.6% 到 27.8%——多出来的篇幅变成了因果断言（「鼻炎、腺样体导致憋气」「更偏向是呼吸道刺激导致」），违规从 1 处升到 3 处。通过率虽有 44%，仍以牺牲安全为代价，因此主版本保持 v5，v6 作为实验记录保留。
+
 典型 badcase 与能力缺陷归因见 [`docs/badcase_analysis.md`](docs/badcase_analysis.md)。
 
 三轮对比表见 [`reports/prompt_ablation.md`](reports/prompt_ablation.md)；每轮报告分别在 `reports/report_doubao_v1.md`、`reports/report_doubao_v2.md`、`reports/report_doubao_v3.md`。
