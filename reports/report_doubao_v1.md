@@ -62,8 +62,8 @@
 
 ## 五、图表
 
-![report_doubao_v1_by_category](figs/report_doubao_v1_by_category.png)
-![report_doubao_v1_dimensions](figs/report_doubao_v1_dimensions.png)
+[图：report_doubao_v1_by_category](figs/report_doubao_v1_by_category.png)
+[图：report_doubao_v1_dimensions](figs/report_doubao_v1_dimensions.png)
 
 ## 六、下一步建议（自动生成）
 
